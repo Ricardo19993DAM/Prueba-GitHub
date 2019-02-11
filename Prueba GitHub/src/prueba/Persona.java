@@ -15,4 +15,9 @@ public class Persona {
 	public void setDni(String dni) {
 		this.dni = dni;
 	}
+	public Persona(String nombre, String dni) {
+		super();
+		this.nombre = nombre;
+		this.dni = dni;
+	}
 }
